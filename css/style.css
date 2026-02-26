@@ -110,7 +110,7 @@ html, body {
 .eri {
   width: 200px;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 /* GRID CARDS */
@@ -164,6 +164,15 @@ html, body {
   .carousel-move img {
     height: 50vh;
   }
+}
+
+.login{
+    text-align: center;
+    font-size: 2rem;
+    padding: 70px;
+    margin: 50px 35px 35px 35px;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 /* FOOTER */
