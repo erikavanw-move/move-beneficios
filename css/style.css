@@ -6,7 +6,7 @@
     font-variation-settings:
     "wdth" 100; */
 
-/* ===== RESET BASE ===== */
+/* RESET BASE */
 *,
 *::before,
 *::after {
@@ -20,7 +20,7 @@ html, body {
   font-family: "Roboto", sans-serif;
 }
 
-/* ===== LAYOUT GENERAL ===== */
+/* LAYOUT GENERAL */
 .presentacion {
   background-image: url(../img/portada-fondo.jpg);
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ html, body {
   padding: 40px 20px;
 }
 
-/* ===== TITULOS ===== */
+/* TITULOS */
 .titulo {
   text-transform: uppercase;
   text-align: center;
@@ -43,7 +43,7 @@ html, body {
   margin: 25px 0 40px;
 }
 
-/* ===== HEADER ===== */
+/* HEADER */
 .header {
   position: relative;
 }
@@ -83,7 +83,7 @@ html, body {
   font-weight: 500;
 }
 
-/* ===== TEXTO IMPACTO ===== */
+/* TEXTO IMPACTO */
 .contenedor-textoimp {
   text-align: center;
   margin: 30px 0;
@@ -99,21 +99,21 @@ html, body {
   text-align: left;
 }
 
-/* ===== SECCION ACCESO ===== */
-.acceso {
-  max-width: 1200px;
-  margin: 50px auto;
-  padding: 0 20px;
+/* CONDICIONES */
+.condiciones{
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 200px 30px 30px 30px;
 }
 
-/* ===== IMAGEN ERI ===== */
+/* IMG ERI */
 .eri {
   width: 200px;
   display: block;
   margin: 0 auto;
 }
 
-/* ===== GRID CARDS ===== */
+/* GRID CARDS */
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -149,7 +149,7 @@ html, body {
   object-fit: contain;
 }
 
-/* ===== CAROUSEL ===== */
+/* CAROUSEL */
 .carousel-move {
   height: 80vh;
 }
@@ -166,7 +166,7 @@ html, body {
   }
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER */
 .footer {
   display: flex;
   flex-direction: column;
@@ -191,7 +191,7 @@ html, body {
   padding: 10px 0;
 }
 
-/* ===== MAPA ===== */
+/* MAPA */
 .mapa {
   display: block;
   width: 100%;
@@ -199,4 +199,4 @@ html, body {
   height: 350px;
   margin: 60px auto;
   border: 0;
-}
+} 
