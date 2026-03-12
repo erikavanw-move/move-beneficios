@@ -189,30 +189,32 @@ body {
 }
 
 /* FOOTER */
-.footer {
-  display: flex;
-  flex-direction: column;   /* mantiene copyright abajo */
-  align-items: center;
+.footer{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  gap:20px;
 }
 
-.redes {
-  display: flex;
-  flex-direction: row;      /* logos uno al lado del otro */
-  justify-content: center;
-  align-items: center;
-  gap: 15px;                /* espacio entre logos */
-  padding: 10px 0;
+.atencion{
+  max-width:400px;
+}
+
+.redes{
+  display:flex;
+  gap:15px;
+  justify-content:center;
+  align-items:center;
 }
 
 .instagram,
-.whastapp {
-  width: 60px;
+.whastapp{
+  width:60px;
 }
 
-.copy {
-  text-align: center;
-  font-size: 14px;
-  padding: 10px 0;
+.copy{
+  font-size:14px;
 }
 
 .copy {
