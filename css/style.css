@@ -190,21 +190,29 @@ body {
 
 /* FOOTER */
 .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;   /* mantiene copyright abajo */
+  align-items: center;
 }
 
 .redes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
+  display: flex;
+  flex-direction: row;      /* logos uno al lado del otro */
+  justify-content: center;
+  align-items: center;
+  gap: 15px;                /* espacio entre logos */
+  padding: 10px 0;
 }
 
 .instagram,
 .whastapp {
-    width: 60px;
+  width: 60px;
+}
+
+.copy {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0;
 }
 
 .copy {
