@@ -1,0 +1,32 @@
+/* HEADER */
+.header {
+  position: relative;
+
+  .logo {
+    width: 100%;
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: larger;
+      font-weight: 500;
+    }
+  }
+
+  .headerul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

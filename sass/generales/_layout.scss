@@ -1,0 +1,72 @@
+/* LAYOUT GENERAL */
+.presentacion {
+  background-image: url(../img/portada-fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+/* TITULOS */
+.titulo {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.titulo1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 25px 0 40px;
+}
+
+/* TEXTO IMPACTO */
+.contenedor-textoimp {
+  text-align: center;
+  margin: 30px 0;
+
+  .textoimp {
+    text-transform: uppercase;
+    white-space: pre-line;
+    background-color: lightgray;
+    border: 5px solid black;
+    padding: 10px 14px;
+    display: inline-block;
+    text-align: left;
+  }
+}
+
+/* CONDICIONES */
+.condiciones {
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 200px 30px 30px 30px;
+}
+
+/* IMG ERI */
+.eri {
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* LOGIN */
+.login {
+  text-align: center;
+  font-size: 2rem;
+  padding: 70px;
+  margin: 50px 35px 35px 35px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+/* MAPA */
+.mapa {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: 350px;
+  margin: 60px auto;
+  border: 0;
+}
