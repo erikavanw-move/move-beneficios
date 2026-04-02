@@ -1,3 +1,5 @@
+@use "./variables" as *;
+
 /* LAYOUT GENERAL */
 .presentacion {
   background-image: url(../img/portada-fondo.jpg);
@@ -82,7 +84,7 @@
 
   &:hover {
     transform: scale(1.05);
-    border: 1px solid black;
+    border: 1px solid $negro;
   }
 
   #heading {
@@ -101,14 +103,14 @@
     padding: 0.6em;
     border: none;
     outline: none;
-    color: white;
+    color: $blanco;
     background-color: #171717;
     box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
 
     .input-icon {
       height: 1.3em;
       width: 1.3em;
-      fill: white;
+      fill: $blanco;
     }
 
     .input-field {
@@ -133,7 +135,7 @@
       outline: none;
       transition: .4s ease-in-out;
       background-color: #252525;
-      color: white;
+      color: $blanco;
       border-radius: 5px;
       padding: 0.5em;
     }
@@ -144,7 +146,7 @@
       margin-right: 0.5em;
 
       &:hover {
-        background-color: black;
+        background-color: $negro;
       }
     }
 
@@ -153,7 +155,7 @@
       padding-right: 2.3em;
 
       &:hover {
-        background-color: black;
+        background-color: $negro;
       }
     }
 
@@ -161,7 +163,7 @@
       margin-bottom: 3em;
 
       &:hover {
-        background-color: red;
+        background-color: $rojo;
       }
     }
   }
